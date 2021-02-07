@@ -1,5 +1,3 @@
-using System;
-
 namespace AHIsLearning.SignalR.Models
 {
     public class ErrorViewModel
