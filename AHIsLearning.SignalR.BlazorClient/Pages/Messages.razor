@@ -1,0 +1,27 @@
+﻿@page "/messages"
+@inherits MessagesBase
+
+<div class="form-group">
+    <label>
+        User:
+        <input @bind="UserInput" />
+    </label>
+</div>
+<div class="form-group">
+    <label>
+        Message:
+        <input @bind="MessageInput" size="50" />
+    </label>
+</div>
+<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+
+<hr>
+
+<ul id="messagesList">
+    @foreach (var message in Messages)
+    {
+        <li>@message</li>
+    }
+</ul>
+
+

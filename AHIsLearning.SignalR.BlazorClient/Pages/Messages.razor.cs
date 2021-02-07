@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 
 namespace AHIsLearning.SignalR.BlazorClient.Pages
 {
-    public class IndexBase : ComponentBase, IAsyncDisposable
+    public class MessagesBase : ComponentBase, IAsyncDisposable
     {
         [Inject] internal NavigationManager NavigationManager { get; set; }
 
