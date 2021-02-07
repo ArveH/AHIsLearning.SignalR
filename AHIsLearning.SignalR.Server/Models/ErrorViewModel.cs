@@ -1,4 +1,4 @@
-namespace AHIsLearning.SignalR.Models
+namespace AHIsLearning.SignalR.Server.Models
 {
     public class ErrorViewModel
     {

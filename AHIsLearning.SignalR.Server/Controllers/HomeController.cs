@@ -1,9 +1,9 @@
-﻿using AHIsLearning.SignalR.Models;
+﻿using System.Diagnostics;
+using AHIsLearning.SignalR.Server.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Diagnostics;
 
-namespace AHIsLearning.SignalR.Controllers
+namespace AHIsLearning.SignalR.Server.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace AHIsLearning.SignalR
+namespace AHIsLearning.SignalR.Server
 {
     public class Program
     {
