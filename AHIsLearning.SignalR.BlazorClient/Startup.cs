@@ -58,6 +58,7 @@ namespace AHIsLearning.SignalR.BlazorClient
             {
                 endpoints.MapBlazorHub();
                 endpoints.MapHub<ChatHub>("/chathub");
+                endpoints.MapHub<StreamingHub>("/streaminghub");
                 endpoints.MapFallbackToPage("/_Host");
             });
         }
